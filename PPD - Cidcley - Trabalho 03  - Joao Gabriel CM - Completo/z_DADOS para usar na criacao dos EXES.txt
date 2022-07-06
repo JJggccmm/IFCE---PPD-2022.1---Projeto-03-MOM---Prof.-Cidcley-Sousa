@@ -1,0 +1,26 @@
+
+1a parte:
+
+pyinstaller --onefile --noconsole cria_Cliente.py
+pyinstaller --onefile --noconsole cria_Sensor.py
+
+2a parte:
+
+('recursos/icone.ico','recursos'),('recursos/gifs/cliente_title_GIF.gif','recursos/gifs'),('recursos/gifs/cliente_main_GIF.gif','recursos/gifs'),('recursos/bg_janela_Inicial_cliente.png','recursos'),('recursos/botao_gerar_Cliente.png','recursos'),('recursos/botao_criar.png','recursos'),('recursos/bg_configurar_Cliente.png','recursos'),('recursos/bg_Cliente.png','recursos')
+
+pyinstaller cria_Cliente.spec
+
+
+('recursos/icone.ico','recursos'),('recursos/gifs/sensor_title_GIF.gif','recursos/gifs'),('recursos/gifs/sensor_main_GIF.gif','recursos/gifs'),('recursos/bg_janela_Inicial_sensor.png','recursos'),('recursos/botao_gerar_Sensor.png','recursos'),('recursos/botao_criar.png','recursos'),('recursos/bg_configurar_Sensor.png','recursos'),('recursos/bg_Sensor.png','recursos'),('recursos/configura_sensor_opcao_umidade.png','recursos'),('recursos/configura_sensor_opcao_temperatura.png','recursos'),('recursos/configura_sensor_opcao_velocidade.png','recursos'),('recursos/label_temperatura.png','recursos'),('recursos/label_umidade.png','recursos'),('recursos/label_velocidade.png','recursos'),('recursos/configura_sensor_opcao_umidade_on.png','recursos'),('recursos/configura_sensor_opcao_temperatura_on.png','recursos'),('recursos/configura_sensor_opcao_velocidade_on.png','recursos'),('recursos/label_temperatura_ON.png','recursos'),('recursos/label_umidade_ON.png','recursos'),('recursos/label_velocidade_ON.png','recursos'),('recursos/indicador_sensor_temperatura.png','recursos'),('recursos/indicador_sensor_umidade.png','recursos'),('recursos/indicador_sensor_velocidade.png','recursos'),('recursos/indicador_sensor_limite_on.png','recursos'),('recursos/indicador_sensor_limite_off.png','recursos')
+
+pyinstaller cria_Sensor.spec
+
+************************************************************
+
+Como converter um ".py" para ".EXE": 
+
+https://stackoverflow.com/questions/54210392/how-can-i-convert-pygame-to-exe
+
+(Extra)- https://stackoverflow.com/questions/51291081/noconsole-not-working-with-pyinstaller
+
+
